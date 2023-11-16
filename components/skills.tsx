@@ -38,6 +38,7 @@ export default function Skills() {
       <h3 className="mb-6 text-gray-500 dark:text-slate-400">Hover over a skill for currency profieciency</h3>
       <div className="flex flex-wrap justify-center gap-4 text-lg text-gray-800 ">
         {skillsData.map((skill) => (
+          <React.Fragment key={skill.id}>
           <div className="group relative flex cursor-pointer">
           <motion.div
             className="group bg-white borderBlack flex flex-col items-center justify-center rounded-xl w-[7rem] h-[7rem] dark:bg-slate-600 transition duration-300 ease-in-out transform hover:grayscale"
@@ -62,6 +63,7 @@ export default function Skills() {
             </div>
           </div>
           </div>
+          </React.Fragment>
         ))}
       </div>
     </section>

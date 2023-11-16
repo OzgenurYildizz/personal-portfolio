@@ -2,6 +2,7 @@ import Header from "@/components/header";
 import "./globals.css";
 import { Inter } from "next/font/google";
 import ActiveSectionContextProvider from "@/context/active-section-context";
+import Image from "next/image";
 import Footer from "@/components/footer";
 import ThemeSwitch from "@/components/theme-switch";
 import ThemeContextProvider from "@/context/theme-context";
@@ -25,7 +26,7 @@ export default function RootLayout({
         className={`${inter.className} bg-gray-50 text-gray-950 relative  pt-14 sm:pt-24 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`} /* {inter.className} ilk hali*/
       /*pt-14 sm:pt-24 -> navbardan sonra boşluk olması için çünkü navbar flex olduğundan yer kaplamıyo */> 
         <div className="absolute top-[-1rem] -z-10" /* absolute: yer kaplamasın diye -z alta gelmesi için*/>
-          <img src="/images/bg-light.jpg" className="w-auto h-[40rem] sm:h-screen"></img>
+          <Image src="/images/bg-light.jpg" alt="backgroung-img" className="w-auto h-[40rem] sm:h-screen"></Image>
         </div>
 
         <ThemeContextProvider>
