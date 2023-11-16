@@ -1,9 +1,7 @@
 import React from "react";
 
 /*icons */
-import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { RiJavascriptFill } from "react-icons/ri";
@@ -17,6 +15,10 @@ import { FaJava } from "react-icons/fa";
 import { CgFigma } from "react-icons/cg";
 import { FaPhp } from "react-icons/fa";
 import { SiCplusplus } from "react-icons/si";
+
+import { MdOutlineDeveloperMode } from "react-icons/md";
+import { CgIfDesign } from "react-icons/cg";
+import { FaComputer } from "react-icons/fa6";
 
 export const links = [
   {
@@ -139,7 +141,7 @@ export const experiencesData = [
     link: "https://www.miateknoloji.com/",
     description:
       "Project-Based Front-End Development with React, Next.js, and TypeScript.  My expertise includes crafting user-friendly web interfaces with Tailwind CSS, PrimeReact libraries, and CSS3. Experienced in designing web and mobile applications with Figma, and knowledgeable in the HTTP protocol.",
-    icon: React.createElement(LuGraduationCap),
+    icon: React.createElement(FaReact),
     date: "September 2023 - Present",
   },
   {
@@ -148,7 +150,7 @@ export const experiencesData = [
     link: "https://www.dekaelectronic.com/tr/",
     description:
       "Designed user-friendly web and mobile applications using Figma, prioritizing user-centered and visually appealing layouts. Implemented responsive and adaptive design solutions.",
-    icon: React.createElement(CgWorkAlt),
+    icon: React.createElement(CgIfDesign),
     date: "August - September 2023",
   },
   {
@@ -157,7 +159,7 @@ export const experiencesData = [
     link: "https://turkishtechnic.com/",
     description:
       "Developed responsive web applications using HTML, CSS, JavaScript, and Bootstrap. Implemented seamless server communication by managing data with JSON and XML. Collaborated with cross-functional teams to achieve project goals.",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(FaComputer),
     date: "January - April 2023",
   },
   {
@@ -166,7 +168,7 @@ export const experiencesData = [
     link: "https://www.mezopotamyall.com/",
     description:
       "Web programing fundamentals including core languages like HTML, CSS, and JavaScript for creating dynamic and interactive websites.",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(MdOutlineDeveloperMode),
     date: "August - October 2022",
   },
 ] as const;
