@@ -45,71 +45,85 @@ export const links = [
 
 export const skillsData = [
   {
+    id: 1,
     title: "HTML",
     icon: React.createElement(FaHtml5, {color: "#ED5D29"}),
     profieciency: "%100",
   },
   {
+    id: 2,
     title: "CSS",
     icon: React.createElement(FaCss3Alt, {color: "#1572B7"}),
     profieciency: "%100",
   },
   {
+    id: 3,
     title: "JavaScript",
     icon: React.createElement(RiJavascriptFill, {color: "#F0DC4E"}),
     profieciency: "%80",
   },
   {
+    id: 4,
     title: "React",
     icon: React.createElement(FaReact, {color: "#68DAF8"}),
     profieciency: "%80",
   },
   {
+    id: 5,
     title: "Next.js",
     icon: React.createElement(TbBrandNextjs, {color: "#000000"}),
     profieciency: "%80",
   },
   {
+    id: 6,
     title: "TypeScript",
     icon: React.createElement(SiTypescript, {color: "#007ACC"} ),
     profieciency: "%85",
   },
   {
+    id: 7,
     title: "Tailwind",
     icon: React.createElement(SiTailwindcss, {color: "#1EB4B2"}),
     profieciency: "%95",
   },
   {
+    id: 8,
     title: "Bootstrap",
     icon: React.createElement(FaBootstrap, {color: "#7811F2"}),
     profieciency: "%90",
   },
   {
+    id: 9,
     title: "Git",
     icon: React.createElement(FaGithub, {color: "#1A1818"}),
     profieciency: "%70",
   },
   {
+    id: 10,
     title: "Jquery",
     icon: React.createElement(DiJqueryLogo, {color: "#0868B2"}),
     profieciency: "%65",
   },
   {
+    id: 11,
     title: "Figma",
     icon: React.createElement(CgFigma, {color: "#B056F7"}),
     profieciency: "%90",
   },
   {
+    id: 12,
     title: "Java",
     icon: React.createElement(FaJava, {color: "#E84135"}),
     profieciency: "%60",
   },  
   {
+    id: 13,
     title: "PHP",
     icon: React.createElement(FaPhp, {color: "#848DB9"}),
     profieciency: "%50",
   },
   {
+    id: 14,
     title: "C++",
     icon: React.createElement(SiCplusplus , {color: "#017CC7"}),
     profieciency: "%50",

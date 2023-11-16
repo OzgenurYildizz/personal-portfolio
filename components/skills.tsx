@@ -37,18 +37,18 @@ export default function Skills() {
       <SectionHeading>My skills</SectionHeading>
       <h3 className="mb-6 text-gray-500 dark:text-slate-400">Hover over a skill for currency profieciency</h3>
       <div className="flex flex-wrap justify-center gap-4 text-lg text-gray-800 ">
-        {skillsData.map((skill, index) => (
+        {skillsData.map((skill) => (
           <div className="group relative flex cursor-pointer">
           <motion.div
             className="group bg-white borderBlack flex flex-col items-center justify-center rounded-xl w-[7rem] h-[7rem] dark:bg-slate-600 transition duration-300 ease-in-out transform hover:grayscale"
-            key={index}
+            key={skill.id}
             variants={fadeInAnimationVariants}
             initial="initial"
             whileInView="animate" /*view olduğunda*/
             viewport={{ /*sadece bir kere */
               once: true,
             }}
-            custom={index}
+            custom={skill.id}
             whileHover={hoverStyles}
           >
               {React.cloneElement(skill.icon, {
