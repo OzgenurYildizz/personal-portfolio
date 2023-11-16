@@ -12,7 +12,7 @@ export default function SectionDivider() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.125 }}
     >
-      <a href="#home" className="text-indigo-950 absolute z-[999] bottom-[6.5rem]  sm:left-1/2 right-[10rem] itenopacity-80 dark:text-white hover:text-indigo-700 dark:hover:text-indigo-700 transition duration-300 ease-in-out">
+      <a href="#home" className="text-indigo-950 absolute z-[999] bottom-[6.5rem]  sm:left-1/2 right-[10.5rem] itenopacity-80 dark:text-white hover:text-indigo-700 dark:hover:text-indigo-700 transition duration-300 ease-in-out">
         <IoMdArrowDropupCircle style={{ width: '3em', height: '3em' }} />
       </a>
     </motion.p>
