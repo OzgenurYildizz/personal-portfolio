@@ -120,28 +120,40 @@ export const skillsData = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Front-End Development Intern",
+    company: "MIA Technology",
+    link: "https://www.miateknoloji.com/",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Project-Based Front-End Development with React, Next.js, and TypeScript.  My expertise includes crafting user-friendly web interfaces with Tailwind CSS, PrimeReact libraries, and CSS3. Experienced in designing web and mobile applications with Figma, and knowledgeable in the HTTP protocol.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "September 2023 - Present",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "UI/UX Designer Intern",
+    company: "Deka Electronic",
+    link: "https://www.dekaelectronic.com/tr/",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Designed user-friendly web and mobile applications using Figma, prioritizing user-centered and visually appealing layouts. Implemented responsive and adaptive design solutions.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "August - September 2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Front-End Development Intern",
+    company: "Turkish Technic | TCI Aircraft Interiors",
+    link: "https://turkishtechnic.com/",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "Developed responsive web applications using HTML, CSS, JavaScript, and Bootstrap. Implemented seamless server communication by managing data with JSON and XML. Collaborated with cross-functional teams to achieve project goals.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "January - April 2023",
+  },
+  {
+    title: "Web Development Intern",
+    company: "Mezopotamya Living Lab",
+    link: "https://www.mezopotamyall.com/",
+    description:
+      "Web programing fundamentals including core languages like HTML, CSS, and JavaScript for creating dynamic and interactive websites.",
+    icon: React.createElement(FaReact),
+    date: "August - October 2022",
   },
 ] as const;
 

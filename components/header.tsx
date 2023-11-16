@@ -20,7 +20,7 @@ export default function Header() {
         animate={{ y: 0, x: "-50%", opacity: 1 }}
       ></motion.div>
 
-      <nav className="flex fixed justify-center top-[0.15rem] left-1/2 h-12 -translate-x-1/2 py-2 sm:top-[1.7rem] sm:h-[initial] sm:py-0">
+      <nav className="flex fixed justify-center ml-5 sm:ml-0 top-[0.15rem] left-1/2 h-12 -translate-x-1/2 py-2 sm:top-[1.7rem] sm:h-[initial] sm:py-0">
         <ul className="flex w-[22rem] flex-wrap items-center justify-center gap-y-1 mr-10 text-[0.9rem] font-medium text-slate-400 sm:w-[initial] sm:flex-nowrap sm:gap-5">
           {links.map((link) => ( /*links are from lib/data.ts */  /*sm:h-[initial] : varsayılan yükseklik fixed; CSS özelliği, bir elementi ekranın belirli bir noktasına sabitlemek için kullanılır. Bu, elementin sayfa kaydırıldıkça yer değiştirmeyeceği anlamına gelir.*/
             <motion.li           /*flax-wrap: sırasıyla sığması sırasında taşma durumunu yönetir. Değerler arasında nowrap, wrap, ve wrap-reverse bulunur. */

@@ -60,31 +60,31 @@ export default function About() {
         <span className="italic">When I'm not coding</span>, exploring my creative side through activities like drawing and diving into the captivating world of books.
       </p>
 
-      <div className="flex flex-col sm:flex-row justify-center items-center">
-        <div className="text-justify inline-block ">
+      <div className="flex flex-col sm:flex-row items-center">
+        <div>
           <h3 className="text-2xl font-medium capitalize mb-4 text-indigo-700 dark:text-indigo-200">Details</h3>
           <ul>
-            <li>
-              <strong className="text-gray-400 inline-block mr-6">Fullname:</strong>
+            <li className="mr-8">
+              <strong className="text-gray-400 inline-block mr-3">Fullname:</strong>
               <span className="italic">Özgenur Yıldız</span>
             </li>
-            <li>
-              <strong className="text-gray-400 inline-block mr-[1rem]">Birth Date:</strong>
+            <li className="mr-4">
+              <strong className="text-gray-400 inline-block mr-3">Birth Date:</strong>
               <span className="italic">October 1, 2001</span>
             </li>
 
-            <li>
-              <strong className="text-gray-400 inline-block mr-7">Location:</strong>
+            <li className="mr-6">
+              <strong className="text-gray-400 inline-block mr-3">Location:</strong>
               <span className="italic">Istanbul/ Turkey</span>
             </li>
-            <li>
-              <strong className="text-gray-400 inline-block mr-[3.2rem]">Email:</strong>
+            <li className="ml-[2.5rem]">
+              <strong className="text-gray-400 inline-block mr-3">Email:</strong>
               <a className="italic text-indigo-500 hover:text-indigo-200 transition dark:hover:text-indigo-900" href="mailto:yildiz.ozgenur@hotmail.com">yildiz.ozgenur@hotmail.com</a>
             </li>
           </ul>
         </div>
 
-        <div className=" text-center">
+        <div className="mt-8 sm:mt-0 sm:ml-[7rem] text-center">
           <h3 className="text-2xl font-medium capitalize mb-4 text-indigo-700 dark:text-indigo-200">Education</h3>
           <ul>
             <li>

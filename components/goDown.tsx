@@ -7,7 +7,6 @@ import { IoMdArrowDropdownCircle } from "react-icons/io";
 export default function SectionDivider() {
   return (
     <motion.p
-      className="md:mt-6 sm:mt-3"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.125 }}
