@@ -57,8 +57,8 @@ export default function Intro() {  /*component names should be start with upper-
           <a
             className="group bg-white px-7 py-3 flex w-[12rem] items-center justify-center rounded outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer  dark:bg-white/10
                 sm:px-5 sm:py-2 sm:focus:scale-80 text-sm sm:text-lg sm:w-[14rem]"
-            href="/OzgenurYildizCV - Kopya.pdf"
-            download="OzgenurYildizCV - Kopya.pdf" 
+            href="/OzgenurYildizCV.pdf"
+            download="OzgenurYildizCV.pdf" 
           >
             Download CV{" "}
             <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
