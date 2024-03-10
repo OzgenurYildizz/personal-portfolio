@@ -15,6 +15,7 @@ import { FaJava } from "react-icons/fa";
 import { CgFigma } from "react-icons/cg";
 import { FaPhp } from "react-icons/fa";
 import { SiCplusplus } from "react-icons/si";
+import { FaAngular } from "react-icons/fa";
 
 import { MdOutlineDeveloperMode } from "react-icons/md";
 import { CgIfDesign } from "react-icons/cg";
@@ -84,48 +85,54 @@ export const skillsData = [
   },
   {
     id: 7,
+    title: "Angular",
+    icon: React.createElement(FaAngular, {color: "#E84135"}),
+    profieciency: "%80",
+  }, 
+  {
+    id: 8,
     title: "Tailwind",
     icon: React.createElement(SiTailwindcss, {color: "#1EB4B2"}),
     profieciency: "%95",
   },
   {
-    id: 8,
+    id: 9,
     title: "Bootstrap",
     icon: React.createElement(FaBootstrap, {color: "#7811F2"}),
     profieciency: "%90",
   },
   {
-    id: 9,
+    id: 10,
     title: "Git",
     icon: React.createElement(FaGithub, {color: "#1A1818"}),
     profieciency: "%70",
   },
   {
-    id: 10,
+    id: 11,
     title: "Jquery",
     icon: React.createElement(DiJqueryLogo, {color: "#0868B2"}),
     profieciency: "%65",
   },
   {
-    id: 11,
+    id: 12,
     title: "Figma",
     icon: React.createElement(CgFigma, {color: "#B056F7"}),
     profieciency: "%90",
   },
   {
-    id: 12,
+    id: 13,
     title: "Java",
     icon: React.createElement(FaJava, {color: "#E84135"}),
     profieciency: "%60",
   },  
   {
-    id: 13,
+    id: 14,
     title: "PHP",
     icon: React.createElement(FaPhp, {color: "#848DB9"}),
     profieciency: "%50",
   },
   {
-    id: 14,
+    id: 15,
     title: "C++",
     icon: React.createElement(SiCplusplus , {color: "#017CC7"}),
     profieciency: "%50",
